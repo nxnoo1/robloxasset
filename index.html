@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RobloxAsset</title>
+    <link rel="stylesheet" type="text/css" href="scripts/css/style.css">
+    <link rel="stylesheet" type="text/css" href="scripts/css/fonts.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/js/jquery-3.2.1.min.js"></script>
+    <script src="scripts/js/main.js"></script>
+</head>
+
+<body>
+    <div id="mainWrapper">
+        <h1 class="mainHeader">Roblox<span>Asset</span></h1>
+        <div id="formWrapper">
+            <div id="form">
+                <input type="text" id="assetURL" name="url" placeholder="Enter Roblox Asset URL...">
+                <select id="assetType" name="type">
+                    <option value="placeholder">Select Asset Type</option>
+                    <option value="accessory">Accessory</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="decal">Decal</option>
+                    <option value="sound">Sound</option>
+                    <option value="model">Model</option>
+                    <option value="mesh">Mesh</option>
+                    <option value="plugin">Plugin</option>
+                </select>
+                <p id="exampleText">Example URL: <span class="example">https://www.roblox.com/library/4951534350/Astronomia</span></p>
+                <input id="submitAsset" type="submit" value="Download Asset">
+                <h2 id="loadMsg">Downloading...</h2>
+                <p id="errorMsg">placeholder</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+body {
+    color: #ffffff;
+    background-image: url(../../images/background.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.example {
+    font-weight: 300;
+    font-size: 12px;
+    overflow-wrap: break-word;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+h1.mainHeader {
+    font-size: 40px;
+}
+
+h1.mainHeader span {
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#mainWrapper {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -250px;
+    text-align: center;
+}
+
+#errorMsg {
+    color: #f74b52;
+    margin-top: 5px;
+    display: none;
+}
+
+#loadMsg {
+    display: none;
+}
+
+#exampleText {
+    filter: opacity(0.75);
+}
+
+/*[Form]*/
+input[type=text], select {
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
