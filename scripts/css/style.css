@@ -61,6 +61,19 @@ h2 {
     filter: opacity(0.75);
 }
 
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px 28px;
+    font-weight: 300;
+    filter: opacity(0.75);
+}
+
+.footer span {
+    font-weight: 400;
+}
+
 /*[Form]*/
 input[type=text], select {
     width: 350px;
